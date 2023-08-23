@@ -24,10 +24,9 @@ The Computer Vision Rock Paper Scissors project aims to build a system that can 
 
 To run the Computer Vision Rock Paper Scissors project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/freestyleabg/aicore.git`
-2. Navigate to the Computer Vision Rock Paper Scissors directory: `cd aicore/computer-vision-rock-paper-scissors`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the application: `python camera_rps.py`
+1. Clone this repository: `git clone https://github.com/freestyleabg/computer-vision-rock-paper-scissors.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the application: `python camera_rps.py`
 
 Make sure you have Python and the required libraries installed on your machine.
 
