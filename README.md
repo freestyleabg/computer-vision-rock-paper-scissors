@@ -1,43 +1,39 @@
-# Computer Vision Rock Paper Scissors
+## Technologies Used
 
-Welcome to the Computer Vision Rock Paper Scissors project! This project focuses on using computer vision techniques and machine learning to create a system capable of recognizing hand gestures for the game "Rock, Paper, Scissors."
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-The Computer Vision Rock Paper Scissors project aims to build a system that can accurately recognize and classify the hand gestures representing "Rock," "Paper," and "Scissors." This involves training a machine learning model on a dataset of hand gesture images and implementing real-time object recognition using computer vision techniques.
+- **Python:** Main programming language.
+- **NumPy:** For numerical operations on arrays and matrices.
+- **OpenCV (cv2):** For capturing video frames from the webcam and processing images.
+- **Keras:** For loading and utilizing the pre-trained machine learning model.
+- **Keyboard:** To capture keyboard inputs during gameplay.
 
 ## Features
 
-- Real-time recognition of hand gestures using computer vision.
-- Classification of hand gestures into "Rock," "Paper," or "Scissors."
-- Simple graphical interface for user interaction.
+- **Real-time Gesture Recognition:** The application captures video from the webcam and uses a trained model to recognize hand gestures.
+- **Gesture Classification:** Classifies gestures into Rock, Paper, or Scissors, with an additional 'false reading' category.
+- **Gameplay Logic:** Includes a class to manage game state, tally wins and losses, and determine game outcomes.
+
+## Repository Structure
+```
+├── camera_rps.py # Main script with game logic and computer vision processing
+├── keras_model.h5 # Pre-trained model file
+├── labels.txt
+```
 
 ## Getting Started
 
-To run the Computer Vision Rock Paper Scissors project, follow these steps:
+### Prerequisites
 
-1. Clone this repository: `git clone https://github.com/freestyleabg/computer-vision-rock-paper-scissors.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the application: `python camera_rps.py`
+- Python 3.x
+- NumPy, OpenCV (cv2), Keras, Keyboard
 
-Make sure you have Python and the required libraries installed on your machine.
+### Installation
 
-## Contributing
+```bash
+git clone https://github.com/freestyleabg/computer-vision-rock-paper-scissors.git
+cd computer-vision-rock-paper-scissors
 
-Contributions to this project are welcome! If you have any ideas, improvements, or bug fixes, please feel free to submit a pull request. Make sure to follow the project's guidelines for contributing.
+pip install -r requirements.txt
+```
+### Usage
 
-## License
-
-This project is licensed under the [MIT License](https://github.com/freestyleabg/aicore/blob/main/LICENSE). Please review the license file for more details.
-
----
-
-Enjoy playing Rock Paper Scissors with computer vision and exploring the code! If you have any questions or feedback, feel free to reach out.
+Run python camera_rps.py to start the game. Follow on-screen instructions for gameplay.
